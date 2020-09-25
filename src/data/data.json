@@ -1,0 +1,554 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hi",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "please, add a new student named Abhijith of class 10",
+        "intent": "add_student",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Abhijith",
+            "entity": "name"
+          },
+          {
+            "start": 50,
+            "end": 52,
+            "value": "10",
+            "entity": "class"
+          }
+        ]
+      },
+      {
+        "text": "hello",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hello!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Good morning.",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Good afternoon.",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Good evening.",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "It’s nice to meet you.",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "It’s a pleasure to meet you.",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What’s new?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "It’s good to see you.",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "G’day!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Howdy!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hi, Jake. What’s new?",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "Jake",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "G’day, Jane. How are things?",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Jane",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Morning, Jane. It’s good to see you!",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "Jane",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hello, Mr. Piper.",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 6,
+            "end": 17,
+            "value": " Mr. Piper.",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Good morning, Mr. Drummer. How are you today?",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Mr. Drummer.",
+            "entity": "name"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Drummer",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hey",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hey there.",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How’s it going?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What’s up?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Sup?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What’s happening?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What’s happenin’?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Yo!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Yo! What’s happenin’?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How’s your day?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How’s your day going?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Good to see you",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Nice to see you",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Long time no see...",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "It’s been a while",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": " How have you been?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How do you do?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": " Whazzup?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "G’day mate!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": " Hiya!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What have you been up to?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Look who it is!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How are you doing today?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How are you feeling today?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Good afternoon, sir, how are you today?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Oh, it’s you David! Hi there!",
+        "intent": "",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "David",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "How’s everything?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Good to see you",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Come!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Welcome!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Mornin', Sam",
+        "intent": "",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "Sam",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "How ya doin'?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "How are things?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hiya doing?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What's happening?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What's going on?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What's new with you?",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Add abhijith m to class 9",
+        "intent": "add_student",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "abhijith m",
+            "entity": "name"
+          },
+          {
+            "start": 24,
+            "end": 25,
+            "value": "9",
+            "entity": "class"
+          }
+        ]
+      },
+      {
+        "text": "please, add a new student",
+        "intent": "add_student",
+        "entities": []
+      },
+      {
+        "text": "please, add a new student named Abhijith of class 10 division A",
+        "intent": "add_student",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Abhijith",
+            "entity": "name"
+          },
+          {
+            "start": 50,
+            "end": 52,
+            "value": "10",
+            "entity": "class"
+          },
+          {
+            "start": 62,
+            "end": 63,
+            "value": "A",
+            "entity": "division"
+          }
+        ]
+      },
+      {
+        "text": "please, add a new student named Abhijith to division A of class 10",
+        "intent": "add_student",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Abhijith",
+            "entity": "name"
+          },
+          {
+            "start": 53,
+            "end": 54,
+            "value": "A",
+            "entity": "division"
+          },
+          {
+            "start": 64,
+            "end": 66,
+            "value": "10",
+            "entity": "class"
+          }
+        ]
+      },
+      {
+        "text": "please, add a new student Abhijith to division A of class 10",
+        "intent": "add_student",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "Abhijith",
+            "entity": "name"
+          },
+          {
+            "start": 47,
+            "end": 48,
+            "value": "A",
+            "entity": "division"
+          },
+          {
+            "start": 58,
+            "end": 60,
+            "value": "10",
+            "entity": "class"
+          }
+        ]
+      },
+      {
+        "text": "name is Alan",
+        "intent": "get_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Alan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "name Alan",
+        "intent": "get_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Alan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "name is Mathew",
+        "intent": "get_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Mathew",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "class 10",
+        "intent": "get_class",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "10",
+            "entity": "class"
+          }
+        ]
+      },
+      {
+        "text": "class of 10",
+        "intent": "get_class",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "10",
+            "entity": "class"
+          }
+        ]
+      },
+      {
+        "text": "class is 12",
+        "intent": "get_class",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "12",
+            "entity": "class"
+          }
+        ]
+      },
+      {
+        "text": "class 11",
+        "intent": "get_class",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "11",
+            "entity": "class"
+          }
+        ]
+      },
+      {
+        "text": "division A",
+        "intent": "get_division",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "A",
+            "entity": "division"
+          }
+        ]
+      },
+      {
+        "text": "division is A",
+        "intent": "get_division",
+        "entities": [
+          {
+            "start": 12,
+            "end": 13,
+            "value": "A",
+            "entity": "division"
+          }
+        ]
+      }
+    ],
+    "regx_features": [],
+    "entity_synonyms": []
+  }
+}
