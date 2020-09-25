@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: changathi
+Version: 0.0.1
+Summary: A Chatbot!
+Home-page: https://github.com/Alan-Cyriac/changathi
+Author: DooDleai
+Author-email: contact.doodleai@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE Version 3
+Classifier: Operating System :: OS Independent

@@ -1,0 +1,11 @@
+include *.txt
+recursive-include src *.bin
+recursive-include src *.csv
+recursive-include src *.db
+recursive-include src *.ipynb
+recursive-include src *.json
+recursive-include src *.md
+recursive-include src *.pickle
+recursive-include src *.py
+recursive-include src *.sqlite3
+recursive-include src *.txt
